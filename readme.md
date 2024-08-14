@@ -1,2 +1,0 @@
-# Tweets Hive DataWareHouse
-

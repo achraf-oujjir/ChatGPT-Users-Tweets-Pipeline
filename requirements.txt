@@ -1,0 +1,6 @@
+numpy==1.24.3
+pandas==2.0.0
+scipy==1.10.0
+textblob==0.17.1
+transformers==4.28.1
+tweepy==4.12.1

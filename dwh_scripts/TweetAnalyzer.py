@@ -47,3 +47,4 @@ class TweetAnalyzer:
 
         print('All sentiments have been analyzed!')
         return np.array(sentiments)
+

@@ -95,6 +95,11 @@ To analyze and visualize the tweets, we designed a fact table and multiple dimen
     </ul>
   </li>
 </ul>
+<br>
+<div align="center">
+  <img src="https://github.com/achraf-oujjir/ChatGPT-Users-Tweets-Pipeline/blob/master/assets/dwh-model.png" alt="dwh-model" width="720">
+</div>
+<br>
 
 This ⭐ star schema enables efficient querying and aggregation of tweet data, which we leveraged for sentiment analysis and visualization in Power BI.
 

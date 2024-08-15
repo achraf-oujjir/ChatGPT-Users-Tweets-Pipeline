@@ -41,7 +41,7 @@ With the data securely housed in Hive, Power BI is connected to access the Hive 
 <div align="center">
   <img src="https://github.com/achraf-oujjir/ChatGPT-Users-Tweets-Pipeline/blob/master/architecture.png" alt="architecture" width="720">
 </div>
-
+<br>
 
 <a name="ingestion-cleaning"></a>
 ### 🧹 Data Ingestion and Cleaning
@@ -51,7 +51,7 @@ The Twitter API (Application Programming Interface) is a programming interface t
 <div align="center">
   <img src="https://github.com/achraf-oujjir/ChatGPT-Users-Tweets-Pipeline/blob/master/assets/raw_data.png" alt="raw" width="720">
 </div>
-
+<br>
 We can visually identify some interesting data points, such as the tweet's timestamp, source link, language, etc. To interact with this API, we use the Tweepy library in Python. The collected tweet data required extensive cleaning to prepare it for analysis. This process involved removing irrelevant information, handling missing values, and addressing inconsistencies in the data. Key tasks included:
 
 1. **Removing Duplicates**: Identifying and removing duplicate tweets to ensure a unique dataset.
@@ -74,6 +74,30 @@ The shell script, named `export_script.sh`, automates the file transfer process.
 
 <a name="modeling"></a>
 ### 🏗️ Data Modeling and DWH Design
+For the design of our Data Warehouse, we opted for a ⭐ star schema architecture, following Kimball's methodology. This approach helps facilitate the organization and visualization of the data we stored for sentiment analysis of ChatGPT-related tweets.
+
+To analyze and visualize the tweets, we designed a fact table and multiple dimension tables. After several iterations, we finalized the following architecture:
+
+<ul>
+  <li><strong>🗃️ Fact Table: <code>tweets_fact</code></strong><br>
+  Stores the essential details of each tweet, such as the tweet's ID, content, and references to the associated dimensions.</li>
+</ul>
+
+<ul>
+  <li><strong>📊 Dimension Tables:</strong>
+    <ul>
+      <li><strong>👤 <code>user_dim</code></strong>: Contains data related to the tweet's author, such as user ID, name, and profile attributes.</li>
+      <li><strong>📱 <code>device_dim</code></strong>: Stores information about the operating system and device from which the tweet was posted.</li>
+      <li><strong>🏷️ <code>hashtag_dim</code></strong>: Captures the hashtags associated with each tweet.</li>
+      <li><strong>🧠 <code>sentiment_dim</code></strong>: Holds the sentiment analysis results for each tweet, including scores and labels (Negative, Neutral, Positive).</li>
+      <li><strong>🌍 <code>location_dim</code></strong>: Provides geographical data related to the tweet's source, including country and city.</li>
+      <li><strong>⏰ <code>time_dim</code></strong>: Stores the timestamp of when the tweet was posted, broken down into components such as date, hour, and minute.</li>
+    </ul>
+  </li>
+</ul>
+
+This ⭐ star schema enables efficient querying and aggregation of tweet data, which we leveraged for sentiment analysis and visualization in Power BI.
+
 
 <a name="dwh-load"></a>
 ### 📦 DWH Load

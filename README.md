@@ -106,6 +106,13 @@ This ⭐ star schema enables efficient querying and aggregation of tweet data, w
 
 <a name="dwh-load"></a>
 ### 📦 DWH Load
+For the datawarehouse creation, the `HiveQL` script named [twitter_dwh_creation_script.sh](dwh_scripts/twitter_dwh_creation_script.hql) contains the required commands for the creation and load of the DWH. This image shows the tables created in the `twitter_dwh` datawarehouse:
+
+<br>
+<div align="center">
+  <img src="https://github.com/achraf-oujjir/ChatGPT-Users-Tweets-Pipeline/blob/master/assets/tables_in_dwh.png" alt="tables" width="720">
+</div>
+<br>
 
 
 <a name="visualization"></a>

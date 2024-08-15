@@ -47,15 +47,3 @@ class TweetAnalyzer:
 
         print('All sentiments have been analyzed!')
         return np.array(sentiments)
-            
-'''
-
-tweets = ["@AchrafOujjir I'm loving this @ Casablanca !! 😊 https://www.google.com",
-            "I hate this!!", "Awesome!", 'the earth revolves around the world']
-
-analyzer = TweetAnalyzer(tweets)
-sentiments = analyzer.analyze_tweets()
-print('Tweets have been analyzed ')
-print(sentiments)
-
-'''

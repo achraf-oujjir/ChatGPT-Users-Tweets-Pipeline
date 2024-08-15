@@ -36,7 +36,7 @@ The processed data is then organized into a star schema, composed of fact and di
 With the data securely housed in Hive, Power BI is connected to access the Hive data warehouse on Cloudera. Within Power BI, an interactive dashboard is built, allowing for exploration of user sentiment, trending topics, and key insights around ChatGPT feedback. This visualization provides stakeholders with a clear view of user perceptions, helping to guide future improvements and feature development.
 
 <a name="architecture"></a>
-## 📝 Project Architecture
+### 📝 Project Architecture
 
 <div align="center">
   <img src="https://github.com/achraf-oujjir/ChatGPT-Users-Tweets-Pipeline/blob/master/architecture.png" alt="architecture" width="720">
@@ -44,7 +44,7 @@ With the data securely housed in Hive, Power BI is connected to access the Hive 
 
 
 <a name="ingestion-cleaning"></a>
-## 🧹 Data Ingestion and Cleaning
+### 🧹 Data Ingestion and Cleaning
 
 The Twitter API (Application Programming Interface) is a programming interface that allows developers to access Twitter's features and data. Using the Twitter API, we were able to collect real-time, valuable information from user tweets. Access to this API is granted through secret keys provided by a Twitter Developer account.
 
@@ -66,14 +66,14 @@ The collected tweet data required extensive cleaning to prepare it for analysis.
 
 
 <a name="sftp"></a>
-## 🌐 SFTP Transfer
+### 🌐 SFTP Transfer
 
 <a name="modeling"></a>
-## 🏗️ Data Modeling and DWH Design
+### 🏗️ Data Modeling and DWH Design
 
 <a name="dwh-load"></a>
-## 📦 DWH Load
+### 📦 DWH Load
 
 
 <a name="visualization"></a>
-## 📊 Data Visualization
+### 📊 Data Visualization

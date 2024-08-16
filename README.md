@@ -118,9 +118,17 @@ Once the datawarehouse is created, the data in the CSV files transfered via SFTP
 
 <br>
 <div align="center">
-  <img src="https://github.com/achraf-oujjir/ChatGPT-Users-Tweets-Pipeline/blob/master/assets/csv_files.png" alt="csv_files" width="300">
+  <img src="https://github.com/achraf-oujjir/ChatGPT-Users-Tweets-Pipeline/blob/master/assets/csv_files.png" alt="csv_files" width="450">
 </div>
 <br>
+
+Here is an example of the `tweets_fact` table after data load:
+<br>
+<div align="center">
+  <img src="https://github.com/achraf-oujjir/ChatGPT-Users-Tweets-Pipeline/blob/master/assets/tw_fact_data.png" alt="tw_fact_data" width="720">
+</div>
+<br>
+
 
 <a name="visualization"></a>
 ### 📊 Data Visualization

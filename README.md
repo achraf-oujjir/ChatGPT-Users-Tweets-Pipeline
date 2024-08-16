@@ -114,6 +114,13 @@ For the datawarehouse creation, the `HiveQL` script named [twitter_dwh_creation_
 </div>
 <br>
 
+Once the datawarehouse is created, the data in the CSV files transfered via SFTP by `export_script.sh` is loaded in their corresponding tables.
+
+<br>
+<div align="center">
+  <img src="https://github.com/achraf-oujjir/ChatGPT-Users-Tweets-Pipeline/blob/master/assets/csv_files.png" alt="csv_files" width="300">
+</div>
+<br>
 
 <a name="visualization"></a>
 ### 📊 Data Visualization

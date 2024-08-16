@@ -106,7 +106,7 @@ This ⭐ star schema enables efficient querying and aggregation of tweet data, w
 
 <a name="dwh-load"></a>
 ### 📦 DWH Load
-For the datawarehouse creation, the `HiveQL` script named [twitter_dwh_creation_script.sh](dwh_scripts/twitter_dwh_creation_script.hql) contains the required commands for the creation and load of the DWH. This image shows the tables created in the `twitter_dwh` datawarehouse:
+For the datawarehouse creation, the `HiveQL` script named [twitter_dwh_creation_script.hql](dwh_scripts/twitter_dwh_creation_script.hql) contains the required commands for the creation and load of the DWH. This image shows the tables created in the `twitter_dwh` datawarehouse:
 
 <br>
 <div align="center">
@@ -132,3 +132,18 @@ Here is an example of the `tweets_fact` table after data load:
 
 <a name="visualization"></a>
 ### 📊 Data Visualization
+
+To visualize the data on the Hive DataWarehouse, I first had to ensure the connection between `PowerBI` and `Hive` on the Cloudera VM.
+
+<br>
+<div align="center">
+  <img src="https://github.com/achraf-oujjir/ChatGPT-Users-Tweets-Pipeline/blob/master/assets/hive_conn.png" alt="hive_conn" width="600">
+</div>
+<br>
+Here is the final dashboard for our data:
+
+<br>
+<div align="center">
+  <img src="https://github.com/achraf-oujjir/ChatGPT-Users-Tweets-Pipeline/blob/master/assets/dashboard" alt="dashboard" width="1900">
+</div>
+<br>

@@ -110,7 +110,7 @@ For the datawarehouse creation, the `HiveQL` script named [twitter_dwh_creation_
 
 <br>
 <div align="center">
-  <img src="https://github.com/achraf-oujjir/ChatGPT-Users-Tweets-Pipeline/blob/master/assets/tables_in_dwh.png" alt="tables" width="720">
+  <img src="https://github.com/achraf-oujjir/ChatGPT-Users-Tweets-Pipeline/blob/master/assets/tables_in_dwh.png" alt="tables" width="300">
 </div>
 <br>
 

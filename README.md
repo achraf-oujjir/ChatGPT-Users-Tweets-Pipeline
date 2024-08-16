@@ -144,6 +144,6 @@ Here is the final dashboard for our data:
 
 <br>
 <div align="center">
-  <img src="https://github.com/achraf-oujjir/ChatGPT-Users-Tweets-Pipeline/blob/master/assets/dashboard" alt="dashboard" width="1900">
+  <img src="https://github.com/achraf-oujjir/ChatGPT-Users-Tweets-Pipeline/blob/master/assets/dashboard.png" alt="dashboard" width="1900">
 </div>
 <br>

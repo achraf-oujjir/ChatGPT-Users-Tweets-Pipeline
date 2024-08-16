@@ -39,7 +39,7 @@ With the data securely housed in Hive, Power BI is connected to access the Hive 
 ### 📝 Project Architecture
 
 <div align="center">
-  <img src="https://github.com/achraf-oujjir/ChatGPT-Users-Tweets-Pipeline/blob/master/architecture.png" alt="architecture" width="720">
+  <img src="https://github.com/achraf-oujjir/ChatGPT-Users-Tweets-Pipeline/blob/master/assets/architecture.png" alt="architecture" width="720">
 </div>
 <br>
 

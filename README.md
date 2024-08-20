@@ -141,7 +141,7 @@ To visualize the data on the Hive DataWarehouse, I first had to ensure the conne
 </div>
 <br>
 Here is the final dashboard for our data:
-
+<br>
 <br>
 <div align="center">
   <img src="https://github.com/achraf-oujjir/ChatGPT-Users-Tweets-Pipeline/blob/master/assets/dashboard.png" alt="dashboard" width="1900">
